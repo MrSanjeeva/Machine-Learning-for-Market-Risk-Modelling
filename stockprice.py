@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 api_url = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=TSCO.LON&outputsize=full&apikey=FVY8CIJ1H6JU2ZX3'
 response = requests.get(api_url)
 
